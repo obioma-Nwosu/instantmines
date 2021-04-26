@@ -324,3 +324,25 @@ cite img {
   margin-right: 10px;
   vertical-align: middle;
 }
+
+/*------------------------------------------------------*/
+/* HOW IT WORKS*/
+/*......................................................*/
+
+.steps-box {
+  margin-top: 30px;
+}
+
+.steps-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+}
+
+.steps-box:last-child {
+  padding-left: 3%;
+}
+
+.app-screen {
+  width: 40%;
+  height: 80%;
+}
