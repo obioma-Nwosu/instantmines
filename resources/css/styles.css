@@ -126,7 +126,8 @@ h2::after {
 /*-----------------------------------------------------*/
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type="submit"] {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -136,7 +137,8 @@ h2::after {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type="submit"] {
   background-color: #e67e22;
   border: 1px solid #e67e22;
   color: #fff;
@@ -150,12 +152,15 @@ h2::after {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
   background-color: #cf6d17;
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type="submit"] {
   border: 1px solid #cf6d17;
 }
 
@@ -329,20 +334,80 @@ cite img {
 /* HOW IT WORKS*/
 /*......................................................*/
 
-.steps-box {
-  margin-top: 30px;
+.section-steps {
+  background-color: #f4f4f4;
 }
 
 .steps-box:first-child {
   text-align: right;
   padding-right: 3%;
+  margin-top: 30px;
 }
 
 .steps-box:last-child {
   padding-left: 3%;
+  margin-top: 70px;
 }
 
 .app-screen {
   width: 40%;
-  height: 80%;
+}
+
+.works-step {
+  margin-bottom: 50px;
+}
+
+.works-step div {
+  color: #e67e22;
+  border: 2px solid #e67e22;
+  display: inline-block;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+  margin-right: 25px;
+  vertical-align: middle;
+}
+
+.works-step:last-of-type {
+  margin-bottom: 85px;
+}
+
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+/*------------------------------------------------------*/
+/* CONTACT US FORM*/
+/*......................................................*/
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+textarea {
+  height: 100px;
+}
+
+input[type="checkbox"] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {
+  outline: none;
 }
