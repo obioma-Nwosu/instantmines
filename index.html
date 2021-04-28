@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./vendors/css/animate.css">
     <link rel="stylesheet" type="text/css" href="./vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="./vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="./vendors/css/ionicons.min.css">
@@ -23,13 +24,15 @@
                 <img src="./resources/img/logo.png" alt="Website Logo" class="logo-stick">
                 <ul class="main-nav">
                     <li><a href="#features">About</a></li>
-                    <li><a href="#">Plans</a></li>
-                    <li><a href="#">Testimonies</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#subscription">Plans</a></li>
+                    <li><a href="#testimonies">Testimonies</a></li>
+                    <li><a href="#works">How it works</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="#">Sign up</a></li>
                     <li><a href="#">Login</a></li>
                 </ul>
+
+                <a class="mobile-nav-icon"><i class="ion-navicon-round"></i></a>
             </div>
         </nav>
         <div class="banner">
@@ -40,14 +43,14 @@
     </header>
 
     <!-- -------------------------------------------FEATURE SECTION--------------------------------------------------------------->
-    <section class="features clearfix js--section-feature">
+    <section class="features clearfix js--section-feature" id="features">
         <div class="nav-row">
             <h2>Get Great Returns on Investment &mdash; no delays!</h2>
             <p class="long-text">
                 Hello, We're Robocoin, We Use Advanced Machine Learning Techniques to Trade, Mine and Invest Crypto-Currencies, We Know You are Busy and Want to Get Paid, Let Us Invest for You!
             </p>
         </div>
-        <div class="nav-row">
+        <div class="nav-row js--wp-1">
             <div class="col span-1-of-4 box">
                 <i class="ion-ios-infinite-outline icon-big"></i>
                 <h3>
@@ -88,13 +91,13 @@
     </section>
 
     <!-- --------------------------------------------- SUBSCRIPTION PLAN SECTION --------------------------------------------------------------->
-    <section class="subscription clearfix js--section-subscription">
+    <section class="subscription clearfix js--section-subscription" id="subscription">
         <div class="nav-row">
             <h2>Start Earning Today</h2>
         </div>
         <div class="nav-row">
             <div class="col span-1-of-4">
-                <div class="plan-box">
+                <div class="plan-box js--wp-3">
                     <div class="">
                         <h3>Vetran</h3>
                         <p class="plan-price">$20,000 <span>/ year</span></p>
@@ -185,7 +188,7 @@
 
 <!-- --------------------------------------------- TESTIMONIONALS SECTIONS --------------------------------------------------------------->
 
-    <section class="section-testimonials">
+    <section class="section-testimonials" id="testimonies">
         <div class="nav-row">
             <h2>What our Clients Say</h2>
         </div>
@@ -219,13 +222,13 @@
 
 <!-- --------------------------------------------- HOW IT WORKS SECTION --------------------------------------------------------------->
 
-    <section class="section-steps clearfix">
+    <section class="section-steps clearfix" id="works">
         <div class="nav-row">
             <h2>How it works &mdash; simple steps</h2>
         </div>
         <div class="nav-row">
             <div class="col span-1-of-2 steps-box">
-                <img src="./resources/img/phoney.png" alt="Robocoin app on iphone" class="app-screen">
+                <img src="./resources/img/phoney.png" alt="Robocoin app on iphone" class="app-screen  js--wp-2">
             </div>
             <div class="col span-1-of-2 steps-box">
                 <div class="works-step">
@@ -249,7 +252,7 @@
 
 <!-- --------------------------------------------- CONTACT US SECTION --------------------------------------------------------------->
 
-    <section class="section-form clearfix">
+    <section class="section-form clearfix" id="contact">
         <div class="nav-row">
             <h2>We're Happy to Hear from you</h2>
         </div>

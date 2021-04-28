@@ -22,7 +22,48 @@
 /*------------------------------------------------------*/
 /* bigger screens (ipad potrait)*/
 /*......................................................*/
-@media only screen and (max-width: 1027px) {
+@media only screen and (max-width: 1087px) {
+  .main-nav {
+    display: none;
+  }
+
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+
+  .main-nav {
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+
+  .main-nav li {
+    display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 5px 0;
+    font-size: 100%;
+  }
+
+  .sticky .main-nav {
+    margin-top: 10px;
+  }
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+  }
+  .sticky .mobile-nav-icon i {
+    color: #555;
+  }
+
+  .sticky .mobile-nav-icon {
+    margin-top: 10px;
+  }
+
   body {
     font-size: 18px;
   }
@@ -94,9 +135,9 @@
     margin: 0 0 4% 0;
   }
 
-  .main-nav {
+  /* .main-nav {
     display: none;
-  }
+  } */
 
   .long-copy {
     width: 100%;
